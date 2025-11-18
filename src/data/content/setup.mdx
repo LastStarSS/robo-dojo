@@ -1,0 +1,46 @@
+# How to set up your computer for FRC
+
+Welcome to FRC! This guide covers the required apps/programs for FRC programming.
+
+## Overview
+
+1. [WPILib](#wpilib)
+2. [FRC Game tools](#frc-game-tools)
+3. [Motor Controllers and Sensors Software](#motor-control)
+    1. [CTRE Software](#ctre)
+    2. [REV Robotics Software](#rev)
+
+## WPILib <span id="wpilib"></span>
+
+[Reference](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html)
+
+The most important app is WPILib, it is basically VSCode with the necessary WPI extensions that offer essential tools to code, build, and deploy your code to the robot.
+
+Honestly, the "Reference" link above is pretty good, so just follow it and you should be good.
+
+You can skip the Post-Installation section, it is not required, but is necessary if you want to do simulation.
+
+## FRC Game tools <span id="frc-game-tools"></span>
+
+[Reference](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/frc-game-tools.html)
+
+FRC Game Tools include many useful tools like RoboRIO Imaging Tool to...image the RoboRIO(surpising, right?) and SmartDashboard to mainly select our autonomous paths. The most important tool, 
+however, is the FRC Driver Station, which is used to enable/disable the robot and monitor robot status during a match.
+
+Again, the "Reference" link above is pretty good, so just follow it and you should be good.
+
+## Motor Controllers and Sensors Software <span id="motor-control"></span>
+
+Our robot uses different types of motors and sensors, mainly from CTRE and REV Robotics (might change for later seasons). To program these devices, we need to install their respective software.
+
+### CTRE Software <span id="ctre"></span>
+
+CTRE (Cross The Road Electronics) makes the TalonFX motor controllers and Kraken motors we use on our robot, these mainly handle the drive and any heavy mechanisms (e.g. our elevator in FRC 2025).
+
+Phoenix Tuner X is the app you need to configure and monitor Krakens. You can download it from [Microsoft Store](https://apps.microsoft.com/detail/9nvv4pwdw27z?hl=en-US&gl=US).
+
+### REV Robotics Software <span id="rev"></span>
+
+REV (Revolution) Robotics makes the CAN Spark Max motor controllers and Neo Vortex we use on our robot, these mainly handle lighter mechanisms (e.g. our slapdown in FRC 2025). 
+
+REV Hardware Client is the app you need to configure CAN Spark Maxes and Neo Vortexes. You can download it from [REV Robotics](https://docs.revrobotics.com/rev-hardware-client/gs/install), use the link the first link they provide as it is the latest version.
